@@ -60,7 +60,7 @@ public class PrinterTest : MonoBehaviour {
 
 	public void PrintToImage(){
 		Debug.Log ("Print to PNG");
-		PrintPhotoUtil.PrintPhoto (Application.dataPath + "/" + fileName, 1, 218, 854, SendQueeuEnd);
+		PrintPhotoUtil.PrintPhoto (Application.dataPath + "/" + fileName, 1, 2480, 3508, SendQueeuEnd);
 	}
 
 	public void PrinterJobCheck(){
